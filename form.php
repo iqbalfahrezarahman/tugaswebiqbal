@@ -1,6 +1,11 @@
 <?php
 if(isset($_POST['submit'])){
-	echo "Form di submit.";
+	$username = $_POST['username'];
+	$password = $_POST['password'];
+
+	echo $username;
+	echo "<br />";
+	echo $password;
 }
 ?>
 
